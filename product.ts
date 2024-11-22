@@ -40,11 +40,11 @@ function isValidEmail(email: string): boolean {
 //example_1_t5
 console.log("example 1 for Task 5");
 const email1 = "example1@domain.com";
-console.log(isValidEmail(email1));
+console.log(`result for ${email1} is :`, isValidEmail(email1));
 
 //example_2_t5
 console.log("example 2 for Task 5");
 const email2 = "example2-email@domain";
-console.log(isValidEmail(email2)); 
+console.log(`result for ${email2} is :`, isValidEmail(email2));
 
 //end task 5
